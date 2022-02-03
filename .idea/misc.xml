@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/jayra/AndroidStudioProjects/APILoginOnGraph/app/src/main/res/drawable/button_background.xml" value="0.184" />
+        <entry key="..\:/Users/jayra/AndroidStudioProjects/APILoginOnGraph/app/src/main/res/drawable/circle_white_background.xml" value="0.184" />
+        <entry key="..\:/Users/jayra/AndroidStudioProjects/APILoginOnGraph/app/src/main/res/drawable/ic_man.xml" value="0.184" />
+        <entry key="..\:/Users/jayra/AndroidStudioProjects/APILoginOnGraph/app/src/main/res/layout/activity_logged_in.xml" value="0.1984375" />
+        <entry key="..\:/Users/jayra/AndroidStudioProjects/APILoginOnGraph/app/src/main/res/layout/activity_login.xml" value="0.3" />
+        <entry key="..\:/Users/jayra/AndroidStudioProjects/APILoginOnGraph/app/src/main/res/layout/activity_main.xml" value="0.268" />
+        <entry key="..\:/Users/jayra/AndroidStudioProjects/APILoginOnGraph/app/src/main/res/layout/activity_registered.xml" value="0.1984375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
