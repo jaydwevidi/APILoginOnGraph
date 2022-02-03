@@ -12,6 +12,9 @@ class RegisteredActivity : AppCompatActivity() {
         binding = ActivityRegisteredBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        supportActionBar?.hide()
+
+
         val details : String? = intent.getStringExtra("1")
         binding.registeredDetails.text = details.toString()
 

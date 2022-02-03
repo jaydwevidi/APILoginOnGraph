@@ -32,8 +32,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_marginVertical="30dp"
                 android:layout_marginHorizontal="10dp"
+                android:layout_marginVertical="30dp"
                 android:orientation="vertical">
 
                 <EditText
@@ -81,7 +81,6 @@
                     android:singleLine="true" />
 
 
-
                 <EditText
                     android:id="@+id/password"
                     android:layout_width="match_parent"
@@ -102,8 +101,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:textColor="#f00"
-                    android:text="" />
+                    android:paddingHorizontal="10dp"
+                    android:text=""
+                    android:textColor="#f00" />
 
                 <br.com.simplepass.loadingbutton.customViews.CircularProgressButton
                     android:id="@+id/registerButton"
@@ -112,13 +112,12 @@
                     android:layout_gravity="center"
                     android:layout_margin="15dp"
                     android:backgroundTint="#f9f871"
-                    android:textColor="#000"
-                    android:textStyle="bold"
                     android:gravity="center"
                     android:text="Register"
+                    android:textColor="#000"
                     android:textSize="18sp"
+                    android:textStyle="bold"
                     tools:ignore="MissingClass" />
-
 
 
                 <TextView
@@ -130,7 +129,6 @@
                     android:text="Already Registered ? Sign In"
                     android:textColor="@color/colorPrimary"
                     android:textSize="16sp" />
-
 
 
             </LinearLayout>

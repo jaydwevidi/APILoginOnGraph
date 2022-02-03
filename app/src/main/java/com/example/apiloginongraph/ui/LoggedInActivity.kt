@@ -10,7 +10,12 @@ class LoggedInActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityLoggedInBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        supportActionBar?.hide()
 
         binding.loginDetailsTV.text = intent.getStringExtra("1").toString()
+
+        binding.finishButton.setOnClickListener {
+            this.finishAffinity()
+        }
     }
 }

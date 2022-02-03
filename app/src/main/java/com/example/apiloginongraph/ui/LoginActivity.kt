@@ -20,8 +20,14 @@ class LoginActivity : AppCompatActivity() {
         setContentView(binding.root)
 
 
+        supportActionBar?.hide()
+
         binding.password.setText("")
         binding.loginButton.setOnClickListener {
+            var password = binding.password.text.toString()
+            if (password == "")
+                password = "1"
+
             binding.loginButton.startAnimation()
             lifecycleScope.launchWhenCreated {
                 val response = try {
@@ -29,7 +35,7 @@ class LoginActivity : AppCompatActivity() {
                         LoginBody(
                             "sadfsdsdafds",
                             binding.emailET.text.toString(),
-                            binding.password.text.toString()
+                            password
                         )
                     )
                 }
